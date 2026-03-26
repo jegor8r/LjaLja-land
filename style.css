@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#f48fb1;
+}
+.main-box{
+    width: 50%;
+    background-color: #fce4ec;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+#buttonNo{
+    position: fixed;
+    transition: top 0.3s ease, left 0.3s ease;
+}
+#buttonYes{
+    position: fixed;
+}
+#buttonNo, #buttonYes{
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #e8637a;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 50px;
+    color: #880e4f;
+}
+.hidden{
+    display: none;
+}
+#answer{
+    text-align: center;
+    font-size: 28px;
+    color: #880e4f;
+    margin-top: 20px;
+}
+#question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
