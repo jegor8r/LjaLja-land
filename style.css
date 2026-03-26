@@ -77,7 +77,6 @@ h1 {
     overflow-y: auto;
 }
 
-/* На телефоне */
 @media (max-width: 768px) {
     .main-box {
         width: 88%;
